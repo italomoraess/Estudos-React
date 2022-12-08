@@ -1,5 +1,6 @@
 import './App.css';
 import { Button } from './components/Button';
+import { Contador } from './components/Contador';
 import { Form } from './components/Form';
 
 function App() {
@@ -10,8 +11,9 @@ function App() {
 
   return (
     <div>
-      <Form />
-      <Button text="Clicar" clickFn={actionButton}/>
+      {/* <Form /> */}
+      {/* <Button text="Clicar" clickFn={actionButton}/> */}
+      <Contador title=''/>
     </div>
   );
 }
